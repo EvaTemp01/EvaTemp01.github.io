@@ -59,7 +59,7 @@ function render(){
     var html='';
     for(var i=0;i<pageItems.length;i++){
         var e=pageItems[i];
-        var img=e.has_cover?'<img src="images/'+esc(e.id)+'/cover.jpg" loading="lazy" onerror="this.style.display='none'">':'<div style="aspect-ratio:3/4;background:#0d1117"></div>';
+        var img=e.has_cover?'<img src="images/'+esc(e.id)+'/cover.jpg" loading="lazy" onerror="this.style.display=\'none\'">':'<div style="aspect-ratio:3/4;background:#0d1117"></div>';
         html+='<a class=card href="detail.html?id='+esc(e.id)+'">'+img+'<div><strong>'+esc(e.title||e.number)+'</strong>'+(e.number&&e.number!==e.title?'<small>'+esc(e.number)+'</small>':'')+'<span class=score>'+(e.score||'')+'</span></div></a>';
     }
     document.getElementById('grid').innerHTML=html;
