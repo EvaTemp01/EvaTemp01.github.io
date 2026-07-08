@@ -1,1 +1,79 @@
-<p>Github.io test.</p>
+<!DOCTYPE html>
+<html lang=zh>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>影片库</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;padding:20px;max-width:1400px;margin:auto}
+h1{font-size:24px;margin-bottom:16px;color:#f0f6fc}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.filters input,.filters select{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:8px 12px;color:#c9d1d9;font-size:14px}
+.filters input{flex:1;min-width:200px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;text-decoration:none;color:#c9d1d9;display:flex;flex-direction:column;transition:border-color .2s}
+.card:hover{border-color:#58a6ff}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;background:#0d1117}
+.card div{padding:8px;display:flex;flex-direction:column;flex:1}
+.card strong{font-size:13px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card small{font-size:11px;color:#8b949e;margin-top:2px}
+.score{font-size:12px;color:#e6c300;margin-top:auto;padding-top:4px}
+.pagination{margin-top:16px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.pagination button{background:#21262d;border:1px solid #30363d;border-radius:6px;padding:6px 14px;color:#c9d1d9;cursor:pointer;font-size:13px}
+.pagination button.active{border-color:#58a6ff;background:#1f3a5f}
+.pagination button:hover{background:#30363d}
+.count{font-size:12px;color:#8b949e;margin-bottom:8px}
+.page-btn{display:none}
+</style>
+<div class=filters>
+<input type=search id=q placeholder="搜索标题或番号..." oninput="render()">
+<select id=sort onchange="render()">
+<option value=recent>最近添加</option>
+<option value=score>评分最高</option>
+<option value=title>标题</option>
+</select>
+<span class=count id=count></span>
+</div>
+<div class=grid id=grid></div>
+<div class=pagination id=pagination></div>
+<script>
+const PER_PAGE = 48;
+let _data = [];
+let _page = 1;
+
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+function render(){
+    var q=document.getElementById('q').value.trim().toLowerCase();
+    var sort=document.getElementById('sort').value;
+    var items=_data.slice();
+    if(q) items=items.filter(function(e){return (e.title||'').toLowerCase().includes(q)||(e.number||'').toLowerCase().includes(q)});
+    if(sort==='score') items.sort(function(a,b){return (parseFloat(b.score)||0)-(parseFloat(a.score)||0)});
+    else if(sort==='title') items.sort(function(a,b){return (a.title||'').localeCompare(b.title||'')});
+    else items.sort(function(a,b){return (b.scraped_at||0)-(a.scraped_at||0)});
+    document.getElementById('count').textContent='共 '+items.length+' 部';
+    var totalPages=Math.ceil(items.length/PER_PAGE);
+    if(_page>totalPages)_page=totalPages||1;
+    var start=(_page-1)*PER_PAGE,end=Math.min(start+PER_PAGE,items.length);
+    var pageItems=items.slice(start,end);
+    var html='';
+    for(var i=0;i<pageItems.length;i++){
+        var e=pageItems[i];
+        var img=e.has_cover?'<img src="images/'+esc(e.id)+'/cover.jpg" loading="lazy" onerror="this.style.display='none'">':'<div style="aspect-ratio:3/4;background:#0d1117"></div>';
+        html+='<a class=card href="detail.html?id='+esc(e.id)+'">'+img+'<div><strong>'+esc(e.title||e.number)+'</strong>'+(e.number&&e.number!==e.title?'<small>'+esc(e.number)+'</small>':'')+'<span class=score>'+(e.score||'')+'</span></div></a>';
+    }
+    document.getElementById('grid').innerHTML=html;
+    var ph='';
+    for(var p=1;p<=totalPages;p++){
+        ph+='<button class="'+(p===_page?'active':'')+'" onclick="goPage('+p+')">'+p+'</button>';
+    }
+    document.getElementById('pagination').innerHTML=ph;
+}
+
+function goPage(p){_page=p;render();window.scrollTo(0,0)}
+
+fetch('data/index.json').then(function(r){return r.json()}).then(function(d){
+    _data=Object.values(d);
+    render();
+});
+</script>

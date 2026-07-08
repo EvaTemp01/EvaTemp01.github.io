@@ -1,0 +1,92 @@
+{
+  "id": "douban_35517044",
+  "number": "douban_35517044",
+  "title": "低智商犯罪",
+  "origin_title": "低智商犯罪",
+  "summary": "脱离一线刑侦几年的警察张一昂（王骁 饰），因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣（王传君 饰）团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+  "score": "8.2",
+  "duration": 0,
+  "release_date": "2026",
+  "maker": "",
+  "director": "",
+  "publisher": "",
+  "series": "",
+  "actors": [],
+  "tags": [
+    {
+      "name": "剧情"
+    },
+    {
+      "name": "犯罪"
+    }
+  ],
+  "rankings": [],
+  "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2932040107.jpg",
+  "thumb_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932040107.jpg",
+  "preview_images": [],
+  "reviews_count": 0,
+  "watched_count": 0,
+  "want_watch_count": 0,
+  "scraped_at": 1783043646,
+  "source": "douban",
+  "countries": [
+    "中国大陆"
+  ],
+  "is_series": true,
+  "subtype": "tv",
+  "episode_count": 24,
+  "episodes": [],
+  "video": {
+    "sources": [
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/2e737071aedd/index.m3u8",
+        "label": "电视猫-第1集",
+        "quality": {
+          "width": 1920,
+          "height": 800,
+          "fps": 23
+        }
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/fd3aa3d2ca10/index.m3u8",
+        "label": "电视猫-第2集",
+        "quality": {
+          "width": 1920,
+          "height": 800,
+          "fps": 24
+        }
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/41f66d812369/index.m3u8",
+        "label": "电视猫-第4集",
+        "quality": {
+          "width": 1920,
+          "height": 800,
+          "fps": 24
+        }
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/133379ca17d2/index.m3u8",
+        "label": "电视猫-第3集",
+        "quality": {
+          "width": 1920,
+          "height": 800
+        }
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/3f9f98284a69/index.m3u8",
+        "label": "电视猫-第5集",
+        "quality": {
+          "width": 1920,
+          "height": 800
+        }
+      }
+    ]
+  },
+  "nsfw": false
+}
