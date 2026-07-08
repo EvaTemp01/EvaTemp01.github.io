@@ -58,6 +58,45 @@
         "id": "4a9bfaea"
       },
       {
+        "id": "e76be3c7",
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/67b966f9e493/index.m3u8",
+        "label": "电视猫-第3集",
+        "quality": {
+          "fps": 22,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": "319b6bff",
+        "type": "online",
+        "src": "https://bfikuncdn.com/20260504/Y66DZDfv/index.m3u8",
+        "label": "电视猫-第4集",
+        "quality": {
+          "width": 1920,
+          "height": 872,
+          "bitrate_kbps": 9631,
+          "fps": 23
+        }
+      },
+      {
+        "id": "6186970e",
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/ad504bae257b/index.m3u8",
+        "label": "电视猫-第5集",
+        "quality": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/5d62eed85013/index.m3u8",
+        "label": "电视猫-第6集",
+        "id": "67612de6"
+      },
+      {
         "type": "online",
         "src": "https://v10.baofeng10.com/video/kangfendisanji/a8ef3ff9de23/index.m3u8",
         "label": "电视猫-第7集",
@@ -76,39 +115,6 @@
           "height": 1080
         },
         "id": "c5e5a554"
-      },
-      {
-        "id": "e76be3c7",
-        "type": "online",
-        "src": "https://v10.baofeng10.com/video/kangfendisanji/67b966f9e493/index.m3u8",
-        "label": "电视猫-第3集",
-        "quality": {
-          "fps": 22,
-          "width": 1920,
-          "height": 1080
-        }
-      },
-      {
-        "id": "6186970e",
-        "type": "online",
-        "src": "https://v10.baofeng10.com/video/kangfendisanji/ad504bae257b/index.m3u8",
-        "label": "电视猫-第5集",
-        "quality": {
-          "width": 1920,
-          "height": 1080
-        }
-      },
-      {
-        "id": "319b6bff",
-        "type": "online",
-        "src": "https://bfikuncdn.com/20260504/Y66DZDfv/index.m3u8",
-        "label": "电视猫-第4集",
-        "quality": {
-          "width": 1920,
-          "height": 872,
-          "bitrate_kbps": 9631,
-          "fps": 23
-        }
       }
     ]
   },
