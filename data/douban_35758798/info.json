@@ -1,0 +1,116 @@
+{
+  "id": "douban_35758798",
+  "number": "douban_35758798",
+  "title": "亢奋 第三季",
+  "origin_title": "Euphoria Season 3",
+  "summary": "一群从小便相识的伙伴在信仰的美德、救赎的可能性与邪恶的困境中挣扎。",
+  "score": "6.3",
+  "duration": 0,
+  "release_date": "2026",
+  "maker": "",
+  "director": "",
+  "publisher": "",
+  "series": "",
+  "actors": [],
+  "tags": [
+    {
+      "name": "剧情"
+    }
+  ],
+  "rankings": [],
+  "cover_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2931004975.jpg",
+  "thumb_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931004975.jpg",
+  "preview_images": [],
+  "reviews_count": 0,
+  "watched_count": 0,
+  "want_watch_count": 0,
+  "scraped_at": 1783047497,
+  "source": "douban",
+  "countries": [
+    "美国"
+  ],
+  "is_series": true,
+  "subtype": "tv",
+  "episode_count": 8,
+  "episodes": [],
+  "video": {
+    "sources": [
+      {
+        "type": "online",
+        "src": "https://v.baofeng10.com/video/kangfendisanji/03c158aa01c5/index.m3u8",
+        "label": "电视猫-第1集",
+        "quality": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 24
+        },
+        "id": "7cef45fb"
+      },
+      {
+        "type": "online",
+        "src": "https://v.baofeng10.com/video/kangfendisanji/927d322a2ef4/index.m3u8",
+        "label": "电视猫-第2集",
+        "quality": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 21
+        },
+        "id": "4a9bfaea"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/a8ef3ff9de23/index.m3u8",
+        "label": "电视猫-第7集",
+        "quality": {
+          "width": 1920,
+          "height": 872
+        },
+        "id": "8f422c84"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/072abf26ac08/index.m3u8",
+        "label": "电视猫-第8集",
+        "quality": {
+          "width": 1920,
+          "height": 1080
+        },
+        "id": "c5e5a554"
+      },
+      {
+        "id": "e76be3c7",
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/67b966f9e493/index.m3u8",
+        "label": "电视猫-第3集",
+        "quality": {
+          "fps": 22,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": "6186970e",
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/kangfendisanji/ad504bae257b/index.m3u8",
+        "label": "电视猫-第5集",
+        "quality": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": "319b6bff",
+        "type": "online",
+        "src": "https://bfikuncdn.com/20260504/Y66DZDfv/index.m3u8",
+        "label": "电视猫-第4集",
+        "quality": {
+          "width": 1920,
+          "height": 872,
+          "bitrate_kbps": 9631,
+          "fps": 23
+        }
+      }
+    ]
+  },
+  "nsfw": false
+}
