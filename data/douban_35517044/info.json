@@ -46,7 +46,8 @@
           "width": 1920,
           "height": 800,
           "fps": 23
-        }
+        },
+        "id": "b984ba92"
       },
       {
         "type": "online",
@@ -56,7 +57,8 @@
           "width": 1920,
           "height": 800,
           "fps": 24
-        }
+        },
+        "id": "a4feb61b"
       },
       {
         "type": "online",
@@ -66,7 +68,8 @@
           "width": 1920,
           "height": 800,
           "fps": 24
-        }
+        },
+        "id": "7ed4f380"
       },
       {
         "type": "online",
@@ -75,7 +78,8 @@
         "quality": {
           "width": 1920,
           "height": 800
-        }
+        },
+        "id": "e0e8d091"
       },
       {
         "type": "online",
@@ -84,7 +88,122 @@
         "quality": {
           "width": 1920,
           "height": 800
-        }
+        },
+        "id": "fcdb8877"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/3caab7688898/index.m3u8",
+        "label": "电视猫-第6集",
+        "id": "806059df"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/feb0005e92b5/index.m3u8",
+        "label": "电视猫-第7集",
+        "id": "9f1b6671"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/84acc727f190/index.m3u8",
+        "label": "电视猫-第8集",
+        "id": "0754bfaf"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/ca18d5befbe9/index.m3u8",
+        "label": "电视猫-第9集",
+        "id": "18a89f06"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/0f769cfaa0a6/index.m3u8",
+        "label": "电视猫-第10集",
+        "id": "f6677207"
+      },
+      {
+        "type": "online",
+        "src": "https://play.modujx11.com/20260507/K6x8l1bL/index.m3u8",
+        "label": "电视猫-第11集",
+        "id": "40dbc04c"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/2ef63d25fe82/index.m3u8",
+        "label": "电视猫-第12集",
+        "id": "bdb2d1c5"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/44e9a4096391/index.m3u8",
+        "label": "电视猫-第13集",
+        "id": "bef0e093"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/6c94f7daae0d/index.m3u8",
+        "label": "电视猫-第14集",
+        "id": "68611817"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/4e4ab86ac97f/index.m3u8",
+        "label": "电视猫-第15集",
+        "id": "a7776e17"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/cfeafc1458ed/index.m3u8",
+        "label": "电视猫-第16集",
+        "id": "401c5e5f"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/1193256e9947/index.m3u8",
+        "label": "电视猫-第17集",
+        "id": "a8b5cabe"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/930de7104533/index.m3u8",
+        "label": "电视猫-第18集",
+        "id": "63bf961a"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/3ca8da221422/index.m3u8",
+        "label": "电视猫-第19集",
+        "id": "c77214f7"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/477546356ec4/index.m3u8",
+        "label": "电视猫-第20集",
+        "id": "87dd6e27"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/b0ebcdcfbc93/index.m3u8",
+        "label": "电视猫-第21集",
+        "id": "3df77e40"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/f48a1247a25e/index.m3u8",
+        "label": "电视猫-第22集",
+        "id": "e8f82294"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/559d91ba7aee/index.m3u8",
+        "label": "电视猫-第23集",
+        "id": "0e104743"
+      },
+      {
+        "type": "online",
+        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/4b44dfae2493/index.m3u8",
+        "label": "电视猫-第24集",
+        "id": "0bc23365"
       }
     ]
   },
