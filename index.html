@@ -2,7 +2,7 @@
 <html lang=zh>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>影片库</title>
+<title>MediaShelf</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;padding:20px;max-width:1400px;margin:auto}
@@ -23,7 +23,6 @@ h1{font-size:24px;margin-bottom:16px;color:#f0f6fc}
 .pagination button.active{border-color:#58a6ff;background:#1f3a5f}
 .pagination button:hover{background:#30363d}
 .count{font-size:12px;color:#8b949e;margin-bottom:8px}
-.page-btn{display:none}
 </style>
 <div class=filters>
 <input type=search id=q placeholder="搜索标题或番号..." oninput="render()">
@@ -40,9 +39,7 @@ h1{font-size:24px;margin-bottom:16px;color:#f0f6fc}
 const PER_PAGE = 48;
 let _data = [];
 let _page = 1;
-
 function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
-
 function render(){
     var q=document.getElementById('q').value.trim().toLowerCase();
     var sort=document.getElementById('sort').value;
@@ -69,9 +66,7 @@ function render(){
     }
     document.getElementById('pagination').innerHTML=ph;
 }
-
 function goPage(p){_page=p;render();window.scrollTo(0,0)}
-
 fetch('data/index.json').then(function(r){return r.json()}).then(function(d){
     _data=Object.values(d);
     render();
