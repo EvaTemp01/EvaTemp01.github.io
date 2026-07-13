@@ -1,0 +1,114 @@
+{
+  "id": "douban_35208466",
+  "number": "douban_35208466",
+  "title": "我才不要和你做朋友呢",
+  "origin_title": "",
+  "summary": "17岁的学霸高中生李进步（庄达菲 饰）阴差阳错回到了学渣妈妈李青桐（陈昊宇 饰）的少女时代，见到了素未谋面的渣男爸爸（王皓 饰）和4D彩色的过世姥爷（贾冰 饰）姥姥（牛莉 饰）。她灵机一动便分分钟融入了妈妈的朋友圈，手撕渣爸，疯狂撮合Crush吴智勋（毕雯珺 饰），下定决心“我爸由我不由妈”的她开启了笑料百出的逆天换爸之路......",
+  "score": "5.9",
+  "duration": 0,
+  "release_date": "2024",
+  "maker": "",
+  "director": "",
+  "publisher": "",
+  "series": "",
+  "actors": [
+    {
+      "id": "",
+      "name": "庄达菲",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "陈昊宇",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "王皓",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "毕雯珺",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "贾冰",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "牛莉",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "杨皓宇",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "钱芳",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "车保罗",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "董思怡",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "王佳宝",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "闫强",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "万国鹏",
+      "avatar_url": ""
+    }
+  ],
+  "tags": [
+    {
+      "name": "喜剧"
+    }
+  ],
+  "countries": [
+    "中国大陆"
+  ],
+  "rankings": [],
+  "cover_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2908694975.jpg",
+  "thumb_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2908694975.jpg",
+  "preview_images": [],
+  "reviews_count": 0,
+  "watched_count": 0,
+  "want_watch_count": 0,
+  "scraped_at": 1783924722,
+  "source": "douban",
+  "nsfw": false,
+  "video": {
+    "sources": [
+      {
+        "id": "9968a2e5",
+        "type": "online",
+        "src": "https://v.cdnlz21.com/20240711/849_60d3ebe2/index.m3u8",
+        "label": "电视猫",
+        "quality": {
+          "width": 1080,
+          "height": 608,
+          "bitrate_kbps": 800
+        }
+      }
+    ]
+  }
+}
