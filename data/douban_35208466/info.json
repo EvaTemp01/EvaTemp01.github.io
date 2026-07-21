@@ -106,7 +106,8 @@
         "quality": {
           "width": 1080,
           "height": 608,
-          "bitrate_kbps": 800
+          "bitrate_kbps": 800,
+          "fps": 20
         }
       }
     ]
