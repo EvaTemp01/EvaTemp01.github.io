@@ -75,7 +75,12 @@
         "type": "online",
         "src": "https://v.baofeng11.com/video/nigumiaomiao/3ffa207499e7/index.m3u8",
         "label": "电视猫-第1集",
-        "id": "be0eb755"
+        "id": "be0eb755",
+        "quality": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 24
+        }
       },
       {
         "type": "online",
