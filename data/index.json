@@ -58,5 +58,15 @@
     "has_cover": true,
     "scraped_at": 1783687025,
     "has_video": false
+  },
+  "douban_38194261": {
+    "id": "douban_38194261",
+    "number": "douban_38194261",
+    "title": "尼古喵喵",
+    "score": "8.0",
+    "source": "douban",
+    "has_cover": true,
+    "scraped_at": 1784724270,
+    "has_video": true
   }
 }

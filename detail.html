@@ -85,7 +85,10 @@ fetch('data/'+ID+'/info.json').then(function(r){return r.json()}).then(function(
         if(revs&&revs.length){
             var rh='<h3>评论 ('+revs.length+')</h3>';
             revs.forEach(function(r){
-                rh+='<div class=review><div class=author>'+esc(r.author||'匿名')+(r.date?' · '+r.date:'')+'</div><div class=content>'+esc(r.content||'')+'</div></div>';
+                var score=r.score?'<span style="color:#d29922;font-weight:bold">'+esc(String(r.score))+'★</span> ':'';
+                var likes=r.likes_count?' 👍'+r.likes_count:'';
+                var time=r.created_at?' · '+esc(r.created_at):'';
+                rh+='<div class=review><div class=author>'+score+esc(r.username||'匿名')+likes+time+'</div><div class=content>'+esc(r.content||'')+'</div></div>';
             });
             document.getElementById('reviews').innerHTML=rh;
         }

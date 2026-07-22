@@ -1,0 +1,94 @@
+{
+  "id": "douban_38194261",
+  "number": "douban_38194261",
+  "title": "尼古喵喵",
+  "origin_title": "ヤニねこ",
+  "summary": "尼古喵喵是只超爱抽烟的废物兽人！\n因为缺乏伦理与卫生观念，不是把烟头往窗外乱丢，就是对人乱吐口水，偶尔还会做出一些违法乱纪的事。\n幸好她身边有贴心的管家婆妹妹猫以及好友猫作伴，让她依旧能每天吞云吐雾、得过且过的生活着。",
+  "score": "8.0",
+  "duration": 0,
+  "release_date": "2026",
+  "maker": "",
+  "director": "",
+  "publisher": "",
+  "series": "",
+  "actors": [
+    {
+      "id": "",
+      "name": "夏吉优子",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "松冈美里",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "船户百合绘",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "清水彩香",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "井泽诗织",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "明智璃子",
+      "avatar_url": ""
+    },
+    {
+      "id": "",
+      "name": "稻田彻",
+      "avatar_url": ""
+    }
+  ],
+  "tags": [
+    {
+      "name": "动画"
+    }
+  ],
+  "countries": [
+    "日本"
+  ],
+  "rankings": [],
+  "cover_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2931260330.jpg",
+  "thumb_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2931260330.jpg",
+  "preview_images": [],
+  "reviews_count": 0,
+  "watched_count": 0,
+  "want_watch_count": 0,
+  "scraped_at": 1784724270,
+  "source": "douban",
+  "nsfw": false,
+  "is_series": true,
+  "episode_count": 12,
+  "episodes": [],
+  "video": {
+    "sources": [
+      {
+        "type": "online",
+        "src": "https://v.baofeng11.com/video/nigumiaomiao/3ffa207499e7/index.m3u8",
+        "label": "电视猫-第1集",
+        "id": "be0eb755"
+      },
+      {
+        "type": "online",
+        "src": "https://v.baofeng11.com/video/nigumiaomiao/e828a131c70a/index.m3u8",
+        "label": "电视猫-第2集",
+        "id": "3942c285"
+      },
+      {
+        "type": "online",
+        "src": "https://v.fengbao11.com/video/nigumiaomiao/06264640ce22/index.m3u8",
+        "label": "电视猫-第3集",
+        "id": "fc15004b"
+      }
+    ]
+  }
+}
