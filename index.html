@@ -60,7 +60,7 @@ function render(){
         var e=pageItems[i];
         var img=e.has_cover?'<img src="images/'+esc(e.id)+'/cover.jpg" loading="lazy" onerror="this.style.display=\'none\'">':'<div style="aspect-ratio:3/4;background:#0d1117"></div>';
         var badge=e.has_video?'<span class="play-badge">▶</span>':'';
-        html+='<a class=card href="detail.html?id='+esc(e.id)+'"><div class=card-img-wrap>'+img+badge+'</div><div><strong>'+esc((e.title||e.number||'').slice(0,30)+(e.title||e.number||'').length>30?'...':'')+'</strong>'+(e.number&&e.number!==e.title?'<small>'+esc(e.number.slice(0,40)+(e.number.length>40?'...':''))+'</small>':'')+'<span class=score>'+(e.score||'')+'</span></div></a>';
+        html+='<a class=card href="detail.html?id='+esc(e.id)+'"><div class=card-img-wrap>'+img+badge+'</div><div><strong>'+esc((e.title||e.number||'').length>30?(e.title||e.number||'').slice(0,30)+'...':(e.title||e.number||''))+'</strong>'+(e.number&&e.number!==e.title?'<small>'+esc(e.number.length>40?e.number.slice(0,40)+'...':e.number)+'</small>':'')+'<span class=score>'+(e.score||'')+'</span></div></a>';
     }
     document.getElementById('grid').innerHTML=html;
     var ph='';
