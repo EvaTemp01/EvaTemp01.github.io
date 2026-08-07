@@ -39,15 +39,15 @@
   "video": {
     "sources": [
       {
+        "id": "64f75829",
         "type": "online",
-        "src": "https://v10.baofeng10.com/video/dizhishangfanzui/2e737071aedd/index.m3u8",
-        "label": "电视猫-第1集",
+        "src": "https://hn.bfvvs.com/play/bqx7mODa/index.m3u8",
+        "label": "好影-第1集",
         "quality": {
           "width": 1920,
           "height": 800,
-          "fps": 23
-        },
-        "id": "b984ba92"
+          "fps": 20
+        }
       },
       {
         "type": "online",
@@ -204,6 +204,17 @@
         "src": "https://v10.baofeng10.com/video/dizhishangfanzui/4b44dfae2493/index.m3u8",
         "label": "电视猫-第24集",
         "id": "0bc23365"
+      },
+      {
+        "id": "6d58a8e6",
+        "type": "online",
+        "src": "https://hn.bfvvs.com/play/bqx7mODa/index.m3u8",
+        "label": "红牛云-第1集",
+        "quality": {
+          "width": 1920,
+          "height": 800,
+          "fps": 15
+        }
       }
     ]
   },
